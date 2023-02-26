@@ -13,15 +13,6 @@ dependencies:
   - mamba
   - pip
   - twine
-  # Standard PyData stack
-  - matplotlib
-  - numpy
-  - pandas
-  - pymc3
-  - scikit-learn
-  - scipy
-  - seaborn
-  - statsmodels
   # Utilities
   - pyprojroot
   - python-dotenv
