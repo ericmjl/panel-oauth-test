@@ -15,4 +15,4 @@ WORKDIR /root
 COPY . /root/.
 RUN /opt/conda/bin/pip install -e .
 
-ENTRYPOINT ["panel", "serve", "-log-level=debug", "--enable-xsrf-cookies", "apps/app.py"]
+ENTRYPOINT ["panel", "serve", "--log-level=debug", "--enable-xsrf-cookies", "apps/app.py"]
